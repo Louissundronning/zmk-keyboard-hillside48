@@ -35,8 +35,8 @@
                         bindings = <
 &kp  ESC      &kp  Q        &kp  W        &kp  F        &kp  P        &kp  G                                                                         &kp  J        &kp  L        &kp  U        &kp  Y        &kp  EXCL     &kp  PLUS
 &kp  AT       &kp  A        &kp  R        &kp  S        &kp  T        &kp  D                                                                         &kp  H        &kp  N        &kp  E        &kp  I        &kp  O        &kp  SQT  
-&kp  AMPS     &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B        &kp  SPACE                                         &to  NUM_L    &kp  N        &kp  M        &kp  COMMA    &kp  DOT      &kp  MINUS    &kp  EQUAL
-                            &kp  LCTRL                  &kp  LGUI     &kp  LALT     &kp  CTRL     &to  SYM_L             &kp  ENTER    &kp  SPACE    &kp  LSHFT    &kp  RGUI                   &kp  SQT      
+&kp  AMPS     &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B        &kp  SPACE                                         &mo  NUM_L    &kp  N        &kp  M        &kp  COMMA    &kp  DOT      &kp  MINUS    &kp  EQUAL
+                            &kp  LCTRL                  &kp  LGUI     &kp  LALT     &kp  CTRL     &mo  SYM_L             &kp  ENTER    &kp  SPACE    &kp  LSHFT    &kp  RGUI                   &kp  SQT      
                         >;
 			
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
